@@ -12,6 +12,17 @@
 		A657D3DA1EF378EF00E05529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A657D3D81EF378EF00E05529 /* Main.storyboard */; };
 		A657D3DC1EF378EF00E05529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A657D3DB1EF378EF00E05529 /* Assets.xcassets */; };
 		A657D3DF1EF378EF00E05529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A657D3DD1EF378EF00E05529 /* LaunchScreen.storyboard */; };
+		A657D3EF1EF37BF800E05529 /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3EA1EF37BF800E05529 /* angry.png */; };
+		A657D3F01EF37BF800E05529 /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3EB1EF37BF800E05529 /* haha.png */; };
+		A657D3F11EF37BF800E05529 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3EC1EF37BF800E05529 /* like.png */; };
+		A657D3F21EF37BF800E05529 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3ED1EF37BF800E05529 /* love.png */; };
+		A657D3F31EF37BF800E05529 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3EE1EF37BF800E05529 /* sad.png */; };
+		A657D3FA1EF380A900E05529 /* avatar1.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3F41EF380A900E05529 /* avatar1.png */; };
+		A657D3FB1EF380A900E05529 /* avatar2.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3F51EF380A900E05529 /* avatar2.png */; };
+		A657D3FC1EF380A900E05529 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3F61EF380A900E05529 /* comment.png */; };
+		A657D3FD1EF380A900E05529 /* greyLike.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3F71EF380A900E05529 /* greyLike.png */; };
+		A657D3FE1EF380A900E05529 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3F81EF380A900E05529 /* img.png */; };
+		A657D3FF1EF380A900E05529 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = A657D3F91EF380A900E05529 /* share.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		A657D3DB1EF378EF00E05529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A657D3DE1EF378EF00E05529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A657D3E01EF378EF00E05529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A657D3EA1EF37BF800E05529 /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
+		A657D3EB1EF37BF800E05529 /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
+		A657D3EC1EF37BF800E05529 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		A657D3ED1EF37BF800E05529 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		A657D3EE1EF37BF800E05529 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		A657D3F41EF380A900E05529 /* avatar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar1.png; sourceTree = "<group>"; };
+		A657D3F51EF380A900E05529 /* avatar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar2.png; sourceTree = "<group>"; };
+		A657D3F61EF380A900E05529 /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		A657D3F71EF380A900E05529 /* greyLike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyLike.png; sourceTree = "<group>"; };
+		A657D3F81EF380A900E05529 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		A657D3F91EF380A900E05529 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 		A657D3D31EF378EF00E05529 /* PopoverView */ = {
 			isa = PBXGroup;
 			children = (
+				A657D3E71EF37BA100E05529 /* Resource */,
 				A657D3D41EF378EF00E05529 /* AppDelegate.swift */,
 				A657D3D61EF378EF00E05529 /* ViewController.swift */,
 				A657D3D81EF378EF00E05529 /* Main.storyboard */,
@@ -62,6 +85,24 @@
 				A657D3E01EF378EF00E05529 /* Info.plist */,
 			);
 			path = PopoverView;
+			sourceTree = "<group>";
+		};
+		A657D3E71EF37BA100E05529 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A657D3F41EF380A900E05529 /* avatar1.png */,
+				A657D3F51EF380A900E05529 /* avatar2.png */,
+				A657D3F61EF380A900E05529 /* comment.png */,
+				A657D3F71EF380A900E05529 /* greyLike.png */,
+				A657D3F81EF380A900E05529 /* img.png */,
+				A657D3F91EF380A900E05529 /* share.png */,
+				A657D3EA1EF37BF800E05529 /* angry.png */,
+				A657D3EB1EF37BF800E05529 /* haha.png */,
+				A657D3EC1EF37BF800E05529 /* like.png */,
+				A657D3ED1EF37BF800E05529 /* love.png */,
+				A657D3EE1EF37BF800E05529 /* sad.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +165,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A657D3DF1EF378EF00E05529 /* LaunchScreen.storyboard in Resources */,
+				A657D3F01EF37BF800E05529 /* haha.png in Resources */,
+				A657D3F31EF37BF800E05529 /* sad.png in Resources */,
+				A657D3FF1EF380A900E05529 /* share.png in Resources */,
+				A657D3FD1EF380A900E05529 /* greyLike.png in Resources */,
+				A657D3FB1EF380A900E05529 /* avatar2.png in Resources */,
+				A657D3F11EF37BF800E05529 /* like.png in Resources */,
+				A657D3EF1EF37BF800E05529 /* angry.png in Resources */,
 				A657D3DC1EF378EF00E05529 /* Assets.xcassets in Resources */,
+				A657D3F21EF37BF800E05529 /* love.png in Resources */,
 				A657D3DA1EF378EF00E05529 /* Main.storyboard in Resources */,
+				A657D3FC1EF380A900E05529 /* comment.png in Resources */,
+				A657D3FE1EF380A900E05529 /* img.png in Resources */,
+				A657D3FA1EF380A900E05529 /* avatar1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
